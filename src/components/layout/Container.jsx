@@ -1,7 +1,7 @@
 import styles from './Container.module.css'
 
-export default function Container({ children }) {
+export default function Container({ children, customClass }) {
     return (
-        <div>{children}</div>
+        <div className={`${styles.container} ${styles[customClass]}`}>{children}</div>
     )
 }

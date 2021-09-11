@@ -1,0 +1,34 @@
+.footer {
+    background-color: #0077b6;
+    color: #FFF;
+    padding: 3em;
+    text-align: center;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.socialMedia li {
+    margin: 0 1em;
+}
+
+.socialMedia li:hover{
+    color: #010811;
+}
+
+.socialMedia svg{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: 2em;
+}
+
+.copyright span {
+    font-weight: bold;
+    color: #010811;
+}
